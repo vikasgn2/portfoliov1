@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&family=Poppins:wght@300;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: black;
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  background: #c7b9ff;
+  background-repeat: no-repeat;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 900;
+}
+
+.im {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.hero {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about {
+  position: relative;
+  margin: 20px;
+  display: flex;
+  display: block;
+  flex-direction: column;
+  text-align: justify;
+  inline-size: auto;
+}
+
+td {
+  padding: 5px;
+}
+.work {
+  position: relative;
+  margin: 20px;
+  display: flex;
+  display: block;
+  flex-direction: column;
+  text-align: justify;
+  inline-size: auto;
+}
+
+.home-h1 {
+  font-family: "Poppins";
+  font-size: 3rem;
+}
+
+.home-h2 {
+  font-size: 2rem;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+.layout {
+  max-width: 90%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: right;
+  margin: 20px auto;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  color: #191970;
+  border-color: #191970;
+  font-weight: 700;
+}
+
+.footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p {
+  text-align: center;
+  color: #c4c4c4;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .layout {
+    max-width: 90%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+  }
+}
